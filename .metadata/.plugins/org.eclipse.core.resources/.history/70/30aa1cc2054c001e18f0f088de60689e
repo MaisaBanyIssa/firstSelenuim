@@ -1,0 +1,19 @@
+package projectOne;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeTest;
+
+public class Test_one_ {
+	WebDriver driver = new chromeDriver();
+	
+	@BeforeTest
+	
+	public void myBeforeTest () {
+	driver.get("https://www.saucedemo.com/");
+
+}
+	@Test()
+	public void myTest() {
+		System.out.println("meso");
+	}
+}

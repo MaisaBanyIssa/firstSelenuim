@@ -1,0 +1,9 @@
+package projectSwagLab;
+
+public class TestOne_SwagLab {
+	@BeforeTest
+	public void myBeforeTest () {
+		
+	}
+
+}

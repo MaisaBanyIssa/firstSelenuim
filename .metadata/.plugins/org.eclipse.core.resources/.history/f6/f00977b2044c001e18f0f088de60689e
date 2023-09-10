@@ -1,0 +1,11 @@
+package projectOne;
+
+public class Test_one {
+	WebDriver driver = new ChromeDriver();
+
+	@BeforeTest
+	public void myBeforTest() {
+	driver.get ("https://www.saucedemo.com/");
+
+}
+}
